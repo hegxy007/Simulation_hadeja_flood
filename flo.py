@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from datetime import datetime
-import plotly.express as px
 import plotly.io as pio
 # Force plotly to output static images that GitHub can display
 pio.renderers.default = "svg"  # or "png"
