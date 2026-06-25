@@ -4,6 +4,8 @@ import numpy as np
 from datetime import datetime
 import plotly.express as px
 import plotly.io as pio
+# Force plotly to output static images that GitHub can display
+pio.renderers.default = "svg"  # or "png"
 
 st.set_page_config(layout='wide')
 st.title("Hadejia-Jama'are Basin: Flood Forecasting Dashboard")
