@@ -8,8 +8,7 @@ from datetime import datetime
 
 st.set_page_config(layout='wide')
 st.title("Hadejia-Jama'are Basin: Flood Forecasting Dashboard")
-# 3. Display it using Streamlit's specific function
-st.plotly_chart(fig, use_container_width=True)
+
 
 st.sidebar.header("1. Upload Your Data")
 
