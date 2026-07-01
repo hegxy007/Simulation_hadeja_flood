@@ -5,7 +5,6 @@ import plotly.express as px
 import plotly.io as pio
 from datetime import datetime
 
-
 st.set_page_config(layout='wide')
 st.title("Hadejia-Jama'are Basin: Flood Forecasting Dashboard")
 
